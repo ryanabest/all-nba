@@ -1,22 +1,24 @@
 {
-  "name": "barebones",
+  "name": "all-nba",
   "version": "1.0.0",
-  "description": "bareones project starter dev environment using BrowserSync and Gulp",
-  "main": "index.js",
-  "repository": "https://github.com/ryanabest/barebones",
+  "description": "all nba scores experiment",
+  "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp watch",
-    "bs": "browser-sync start --server --files '*.html, css/*.css'"
+    "dev": "gulp watch"
   },
-  "author": "ryan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanabest/all-nba.git"
+  },
+  "author": "Ryan Best",
   "license": "ISC",
-  "dependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1"
+  "bugs": {
+    "url": "https://github.com/ryanabest/all-nba/issues"
   },
-  "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+  "homepage": "https://github.com/ryanabest/all-nba#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }
